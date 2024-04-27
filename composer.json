@@ -1,0 +1,27 @@
+{
+    "name": "seowork/task",
+    "autoload": {
+        "psr-4": {
+            "SeoworkTask\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SeoworkTask\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ivan S",
+            "email": "ssssshazam@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^11"
+    },
+    "require": {
+        "ext-bcmath": "*",
+        "ext-gmp": "*",
+        "brick/math": "^0.12.1"
+    }
+}
